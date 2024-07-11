@@ -167,12 +167,13 @@ img {
 
 .hero {
     background-color:  #2E2F42;
-    background-image: linear-gradient(rgba(46 47, 66, 0.7), rgba(46 47, 66, 0.7)) rgba(46 47, 66, 0.7), url(../images/hero-people-office.jpg);
+    background-image: linear-gradient(rgba(46 47, 66, 0.7), rgba(46 47, 66, 0.7)), url(../images/hero-people-office-opt.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 188px; 
     padding-bottom: 188px;
+    max-width: 1440px;
    }
 
 .hero-title {
@@ -204,7 +205,7 @@ img {
     margin: 0 auto;
     padding: 16px 32px 16px 32px;
     min-width: 169px;
-    
+    transition: background-color 250mc cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover {
