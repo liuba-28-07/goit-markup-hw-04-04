@@ -389,7 +389,7 @@ img {
 
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
-    transition: box-shadow 250mc cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list:hover {
@@ -398,7 +398,7 @@ img {
     0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
-.portfolio-list-item .portfolio-text {
+.portfolio-list-item:hover .portfolio-text {
     transform: translateY(0%);
 }
 
