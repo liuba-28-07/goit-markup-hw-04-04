@@ -238,7 +238,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-      }
+  }
        
     
 
@@ -330,6 +330,39 @@ img {
 
 .team-employee {
     padding: 32px 0;
+}
+
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-media-item {
+    width: 40px;
+    height: 40px;
+}
+
+.team-anchor {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.team-anchor:hover {
+    background-color: #404bbf;
+}
+
+.team-anchor:focus {
+    background-color: #404bbf;
+}
+
+.media-icon {
+    fill: #f4f4fd;
 }
 
 .team-image {
